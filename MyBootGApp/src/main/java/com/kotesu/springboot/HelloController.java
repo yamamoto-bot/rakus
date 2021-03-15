@@ -15,17 +15,17 @@ public class HelloController{
 		mav.addObject("object",obj);
 		return mav;
 	}
-}
 
-class DataObject{
-	private int id;
-	private String name;
-	private String value;
+	class DataObject{
+		private int id;
+		private String name;
+		private String value;
 
-	public DataObject(int id, String name, String value) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.value = value;
+		public DataObject(int id, String name, String value) {
+			super();
+			this.id = id;
+			this.name = name;
+			this.value = value;
+		}
 	}
 }
